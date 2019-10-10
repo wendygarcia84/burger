@@ -11,6 +11,7 @@ var burger = {
     },
     //add parameters for the table and a callback
     insertOne: function(cols, vals, cb) {
+        console.log(cols, vals);
         //create var string
         //create connection.query
             //call callback function inside query

@@ -13,12 +13,17 @@
   </div>
 
   <div class="col-md-4">
-  <ul>
-      <form id="add-burger" class="button-size">
-    <textarea type="text" name="burger"></textarea>
-    <button type="submit">Add a burger!</button>
+<h2>Add Burger!</h2>
+
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="bu">Burger Name:</label>
+    <input type="text" id="bu" name="name">
+  </div>
+
+  <button id="submit-burger" type="submit">Burger!</button>
 </form>
-  </ul>
   </div>
 
   <div class="col-md-4">
@@ -33,27 +38,3 @@
   </div>
 </div>
 </div>
-<script type="text/javascript">
-
-  $("#add-burger").on("submit", function(event) {
-    // Make sure to preventDefault on a submit event.
-    event.preventDefault();
-
-    // name=plan will find an element with a "name" attribute equal to the string "plan"
-    var newBurger = {
-      burger_name: $("#createburger [name=burger]").val().trim()
-    };
-
-    // Send the POST request.
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger
-    }).then(
-      function() {
-        console.log("created new burger");
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
-  });
-</script>
