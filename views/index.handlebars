@@ -1,7 +1,16 @@
+<div class="jumbotron">
+  <h1 class="display-4">Burger app!!</h1>
+  <p class="lead">Log the burgers you want to eat!!</p>
+  <hr class="my-4">
+  <p>Once you devoure them, PRESS THE BUTTON</p>
+</div>
+
 <div class="container">
-<h1>BURGERS APP</h1>
+
 <div class="row">
+
   <div class="col-md-4">
+    <h1>BURGERS</h1>
   <ul>
       {{#each burgers}}
         {{#unless devoured}}
@@ -27,6 +36,7 @@
   </div>
 
   <div class="col-md-4">
+    <h1>DEVOURED!</h1>
   <ul>
       {{#each burgers}}
         {{#if devoured}}
