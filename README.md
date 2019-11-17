@@ -16,10 +16,20 @@ Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM
 
 * The app will store every burger in a database, whether devoured or not.
 
-> This app is Created and Maintained by: Wendy Garcia.
+### Run the app
 
-Contact me!
+This app is deployed on heroku. [Click here](https://burger-app-logger.herokuapp.com/) to run it.
 
-> Phone: 904-207-9302
 
-> Email: wendy.fern84@gmail.com
+## About the Author
+***
+
+This app is Created and Maintained by: [Wendy Garcia](https://wendygarcia.net).
+
+>Contact me!
+
+Github: https://github.com/wendygarcia84
+
+LinkedIn: https://www.linkedin.com/in/wendy-garcia-97682a31/
+
+Contact me: [wendygarcia.wd@gmail.com](mailto:wendygarcia.wd@gmail.com)

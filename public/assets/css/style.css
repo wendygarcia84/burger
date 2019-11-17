@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url('/assets/images/burgers-banner.jpg');
+    color: white;
+}
+
+.container {
+    background-image: url('/assets/images/1.jpg');
+    background-repeat: repeat;
+}
